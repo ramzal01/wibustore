@@ -1,0 +1,12 @@
+body{
+    font-family: Arial, sans-serif;
+    text-color: white;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(255, 255, 255, 0.5);
+    height: 100vh;
+    background-image: url('https://img.goodfon.com/original/1366x768/7/20/mahiru-shiina-otonari-no-tenshi-sama-ni-itsunomanika-dame--7.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+ }

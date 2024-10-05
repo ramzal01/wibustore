@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<head lang="id">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Toko Digital Rerez Official</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+        .video-background {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            min-width: 100%;
+            min-height: 100%;
+            width: auto;
+            height: auto;
+            z-index: -1;
+            transform: translate(-50%, -50%);
+        }
+        .content {
+            position: relative;
+            z-index: 1;
+            color: wheat;
+            text-align: center;
+            padding: 20px;
+        }
+        .header {
+            background-image: none;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            color: wheat;
+            padding: 15px 20px; 
+            display: center;
+            align-items: center; 
+            text-align: center;
+            border-radius: 20px;
+            font-size: 25px;
+            backdrop-filter: blur(0.2rem);
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        tr, td {
+            padding: 12px;
+            text-align: left;
+            border: 1px solid #ccc;
+            background-color: #ffffff;
+        }
+        th {
+            background-color: #007bff;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        .action-buttons {
+            display: flex;
+            gap: 10px;
+        }
+        .button {
+            padding: 8px 15px;
+            background-color: #28a745;
+            color: wheat;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            justify-content: space-between;
+        }
+        .button-hover {
+            background-color: #218838;
+        }
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+        .balik {
+            padding: 8px 15px;
+            background-color: hsl(19, 88%, 54%);
+            color: wheat;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            justify-content: space-between;
+        }
+    </style>
+</head>
+<body>
+    <video autoplay muted loop class="video-background">
+        <source src="ANIMASI.mp4" type="video/mp4">
+        TOKO DIGITAL RIZAL STORE
+    </video>
+    <br><div class="header">
+        <h2>TOKO ONLINE RIZAL STORE</h2>
+        <p>Silahkan Pilih Menu Di Bawah Untuk Melihat Beberapa Produk Kami</p>
+    </div><br>
+    <div class="header">
+        <h3>DAFTAR PRODUK</h3>
+    </div><br>
+    <!-- bikin daftar harga nya -->
+    <table>
+        <thead>
+            <th>Nama Barang</th>
+            <th>Deskripsi</th>
+            <th>Harga</th>
+            <th>Aksi</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>bot wa</td>
+                <td>terima jadi</td>
+                <td>Rp 25.000</td>
+                <td class="action-buttons">
+                <a href="#"><button class="button">Detile</button></a>
+                <a href="https://wa.me/6281351257978?txt=Mau+beli"><button class="button">Beli</button></a>
+                </td>
+            </tr>
+            <tr>
+                <td>sc store</td>
+                <td>skrip bot</td>
+                <td>Rp 5.000</td>
+                <td class="action-buttons">
+                <a href="#"><button class="button">Detile</button></a>
+                <a href="https://wa.me/6281351257978?txt=Mau+beli"><button class="button">Beli</button></a>
+                </td>
+            </tr>
+            <tr>
+                <td>panel unli</td>
+                <td>panel bot unli</td>
+                <td>Rp 10.000</td>
+                <td class="action-buttons">
+                <a href="#"><button class="button">Detile</button></a>
+                <a href="https://wa.me/6281351257978?txt=Mau+beli"><button class="button">Beli</button></a>
+                </td>
+            </tr>
+            <tr></tr>
+                <td>free fire</td>
+                <td>diamond ff</td>
+                <td>liat sendiri</td>
+                <td class="action-buttons">
+                <a href="#"><button class="button">Detile</button></a>
+                <a href="https://wa.me/6281351257978?txt=Mau+beli"><button class="button">Beli</button></a>
+                </td>
+            </tr>
+        </tbody>
+    </table><br><br><br>
+    <p align="center" class="kembali"><a href="menu.html"><button class="balik">kembali</button></a></p>
+</body>
