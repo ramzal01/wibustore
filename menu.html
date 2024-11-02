@@ -6,20 +6,23 @@
     <title>RIZAL STORE</title>
     <style>
         *,
+        
         html {
             margin: 0;
             padding: 0;
         }
         body {
+    
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
             background-color: rgb(255, 255, 255);
-            height: 100vh;
-            background-image: url('https://img.goodfon.com/original/1366x768/7/20/mahiru-shiina-otonari-no-tenshi-sama-ni-itsunomanika-dame--7.jpg');
+            height: 100dvh;
+            background-image: url('mahiru.jpg');
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
+         
         }
         header {
             background-image: url('https://p4.wallpaperbetter.com/wallpaper/530/823/735/sky-clouds-blue-hd-blue-sky-wallpaper-preview.jpg');
@@ -35,33 +38,50 @@
             font-size: 25px;
         }
         .menu {
+            width: 100%;
             display: flex;
             background-color: aqua;
             background-size: cover;
             background-position: center;
-            background-repeat: no-repeat;
-            border-radius: 20px;
+            background-repeat: center;
+            border-radius: none;
             padding: 5px;
             text-align: center;
             align-items: center;
         }
         .menu-item {
-            padding: 15px 35px;
+           
+            padding: 2px 5px;
             color: white;
             text-decoration: none;
             transition: background-color belue 1s;
             align-items: center;
-        }
+            @media screen and (max-width:767px) {
+        
+    } 
+    } 
+
         .menu-item:hover {
-            background-color: rgb(156, 211, 211);
-            align-items: center;
+            background-color: #74c4e4;
+        color: #fff;
+        padding: 4px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        align-items: center;
+        display: flex;
+        transition: backgroun-color0.3s;
         }
         .content {
             padding: 20px;
             color: white;
-        }
+    }
+     .info {
+        color: hsl(0, 0%, 100%);
+     }
     </style>
 </head>
+
 <body>
   <br><header>
     <h1>Welcome To Rizal Store</h1>
@@ -70,13 +90,17 @@
     <a href="index.html" class="menu-item">Beranda</a>
     <a href="toko.html" class="menu-item">Layanan</a>
     <a href="coming soon.html" class="menu-item">Testonomi</a>
+</div>
+<div class="menu">
     <a href="https://wa.me/6281351257978/" class="menu-item">Kontak</a>
     <a href="baru.html" class="menu-item">Project</a>
 </div>
 <div class="content">
     <h2>Selamat Datang di Website RIZAL STORE</h2>
-    <p>Saya menyediakan berbagai kebutuhan game dan whatsapp<br>Silahkan pilih menu di atas untuk melihat menu lain nya</p>
-    <p align="center">apa ya</p>
+    <br><br>
+    <p class="info">Saya menyediakan berbagai kebutuhan game dan whatsapp<br><br>Silahkan pilih menu di atas untuk melihat menu lain nya</p>
+    
+
 
 </div>
 </body>
